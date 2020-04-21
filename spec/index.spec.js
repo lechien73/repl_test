@@ -2,8 +2,6 @@
 // Opens the index.html file and attaches it to
 // Jest's mock DOM
 
-const $ = require('jquery');
-
 beforeAll(() => {
     var fs = require("fs");
     // Change the filename here to the HTML file you're testing
